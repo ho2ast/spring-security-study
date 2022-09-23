@@ -44,7 +44,7 @@ public class IndexController {
         System.out.println("authentication.getPrincipal() = " + oAuth2User.getAttributes());
 
         System.out.println("oAuth.getAttributes = " + oAuth.getAttributes());
-        return "OAuth 세션정보확인 완료됨";
+        return "OAuth 세션정보확인 완료";
     }
 
     @GetMapping({"", "/"})
