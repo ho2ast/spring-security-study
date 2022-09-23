@@ -33,7 +33,7 @@ public class IndexController {
         System.out.println("authentication.getPrincipal() = " + principalDetails.getUser());
 
         System.out.println("userDetails.getUsername() = " + userDetails.getUser());
-        return "세션정보확인";
+        return "세션 정보확인";
     }
 
     @GetMapping("/test/oauth/login")
